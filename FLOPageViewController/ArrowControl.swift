@@ -19,7 +19,7 @@ public class ArrowControl: NSControl {
     
 // MARK: - Properties
     
-    public enum Direction {
+    @objc public enum Direction: Int {
         case left
         case right
     }
